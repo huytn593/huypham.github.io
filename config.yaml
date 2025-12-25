@@ -1,0 +1,124 @@
+baseURL: "https://huytn593.github.io/"
+languageCode: "vi-vn"
+title: "Trần Phạm Gia Huy | Portfolio"
+theme: "hugo-profile"
+
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Trần Phạm Gia Huy"
+  description: "Sinh viên Công nghệ Phần mềm | Portfolio cá nhân"
+
+  customCSS:
+    - "/css/custom.css"
+
+  useBootstrapCDN: true
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "dark"
+
+  # ================= HERO =================
+  hero:
+    enable: true
+    intro: "Xin chào, mình là"
+    title: "Trần Phạm Gia Huy"
+    subtitle: "Sinh viên Công nghệ Phần mềm"
+    content: >
+      Mình là sinh viên năm 4 ngành Công nghệ Phần mềm tại HUTECH,
+      đang tìm kiếm cơ hội thực tập hoặc công việc phù hợp để phát triển
+      kỹ năng lập trình và áp dụng kiến thức vào thực tế.
+    image: "/images/avatar.png"
+    button:
+      enable: true
+      name: "Tải CV"
+      url: "https://drive.google.com/drive/folders/1dxly8Fi8glmiynxISlQHBSAZSzsb6rLe?usp=drive_link"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/huytn593
+        - icon: fas fa-envelope
+          url: mailto:huytn593@gmail.com
+
+  # ================= ABOUT =================
+  about:
+    enable: true
+    title: "Giới thiệu"
+    content: |
+      Mình là sinh viên năm 4 ngành **Công nghệ Phần mềm**
+      tại **Đại học Công Nghệ TP.HCM (HUTECH)**.
+
+      Mình quan tâm đến phát triển phần mềm, lập trình web và lập trình game.
+      Mình thích học thông qua các dự án thực tế và luôn sẵn sàng học hỏi
+      để nâng cao kỹ năng chuyên môn.
+
+  # ================= SKILLS =================
+  skills:
+    enable: true
+    title: "Kỹ năng"
+    items:
+      - title: "Lập trình"
+        content: "C#, Java, Python"
+      - title: "Web"
+        content: "HTML, CSS, JavaScript, Firebase"
+      - title: "Cơ sở dữ liệu"
+        content: "SQL Server, MySQL"
+      - title: "Machine Learning"
+        content: "Pandas, Scikit-learn, XGBoost"
+      - title: "Kỹ năng mềm"
+        content: "Tư duy logic, làm việc nhóm, học hỏi nhanh, giao tiếp tốt"
+
+  # ================= EDUCATION =================
+  education:
+    enable: true
+    title: "Học vấn"
+    items:
+      - title: "Đại học Công Nghệ TP.HCM (HUTECH)"
+        content: |
+          **Chuyên ngành:** Công nghệ Phần mềm  
+          **Thời gian:** 2022 – 2025
+
+  # ================= PROJECTS =================
+  projects:
+    enable: true
+    title: "Dự án"
+    disableImage: true # Dòng này xác nhận việc tắt hiển thị ảnh
+    items:
+      - title: "Ứng dụng Quản lý Rạp Phim (2024)"
+        content: |
+          **Công nghệ:** C#, SQL Server, WinForms  
+          Quản lý rạp phim, lịch chiếu, doanh thu và trạng thái hoạt động.
+
+      - title: "Dự đoán VN-Index bằng Machine Learning (2024)"
+        content: |
+          **Công nghệ:** Python, Pandas, Scikit-learn, XGBoost  
+          Mô hình đạt độ chính xác khoảng 80%, trực quan hóa xu hướng VN-Index.
+
+      - title: "Ứng dụng Quản lý Sinh viên (2023)"
+        content: |
+          **Công nghệ:** Java, MySQL, Java Swing  
+          Thêm/sửa/xóa sinh viên, xuất báo cáo, tìm kiếm theo nhiều tiêu chí.
+
+      - title: "Hệ thống Xác thực OTP qua SMS (2024)"
+        content: |
+          **Công nghệ:** C# WinForms, SQL Server, esms.vn API  
+          Gửi và xác thực OTP, đảm bảo bảo mật thông tin người dùng.
+
+      - title: "Website bán hàng đơn giản (2023)"
+        content: |
+          **Công nghệ:** HTML, CSS, JavaScript, Firebase  
+          Xem sản phẩm, giỏ hàng, đặt hàng, đăng nhập Google.
+
+  # ================= CONTACT =================
+  contact:
+    enable: true
+    title: "Liên hệ"
+    content: |
+      📧 **Email:** huytn593@gmail.com  
+      📞 **Số điện thoại:** (+84) 939 605 921  
+      📍 **Địa chỉ:** Thành phố Thủ Đức, Việt Nam

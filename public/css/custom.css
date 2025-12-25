@@ -1,0 +1,44 @@
+/* --- FORCE HIDE PROJECTS IMAGES (FIXED) --- */
+
+/* 1. Nhắm vào mọi thẻ IMG trong khu vực Projects */
+#projects img,
+#projects .card-img-top,
+#projects .card-img,
+.project-card img {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+/* 2. Ẩn luôn khung chứa ảnh (để tránh viền trắng khi ảnh mất) */
+#projects .card-header,
+#projects .image-holder {
+    display: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* 3. Chỉnh lại text: Đẩy sát lên trên và căn trái */
+#projects .card-body {
+    padding-top: 0 !important;
+    margin-top: -10px !important; /* Kéo text lên cao hơn một chút */
+    text-align: left !important;
+}
+
+/* 4. Xóa nền và viền của thẻ Card để giống CV */
+#projects .card {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* 5. (QUAN TRỌNG) Ép cột rộng ra 100% để text không bị bóp nghẹt */
+#projects .col-lg-4, 
+#projects .col-md-6, 
+#projects .col-12 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+}
