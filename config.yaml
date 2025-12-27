@@ -32,7 +32,7 @@ params:
     imageTitle: "Avatar"
     buttons:
       - name: "Tải CV"
-        url: "https://drive.google.com/drive/folders/1dxly8Fi8glmiynxISlQHBSAZSzsb6rLe?usp=drive_link"
+        url: "https://www.canva.com/design/DAGe6jQAU7A/QLSWKSCPm5K2CZ4bfCMlUQ/edit"
 
   socialIcons:
     - name: "github"
